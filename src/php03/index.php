@@ -13,7 +13,7 @@ $question = $options[array_rand($options, 1)];
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>php03</title>
     <link rel="stylesheet" href="css/sanitize.css">
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/index.css">
