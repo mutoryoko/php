@@ -12,7 +12,7 @@ $status_codes = [
     ],
     [
         'code' => '301',
-        'meaning' => 'Moved Permanently',
+        'meaning' => 'Moved',
         'description' => 'リクエストしたリソースが恒久的に移動されている'
     ],
     [
@@ -37,7 +37,7 @@ $status_codes = [
     ],
     [
         'code' => '404',
-        'meaning' => 'Not found',
+        'meaning' => 'Not Found',
         'description' => 'Webページが見つからない'
     ],
     [
@@ -48,11 +48,11 @@ $status_codes = [
     [
         'code' => '502',
         'meaning' => 'Bad Gateway',
-        'description' => 'サーバーがリクエストに満たすのに必要な機能をサポートしていない'
+        'description' => 'サーバーがリクエストを満たすのに必要な機能をサポートしていない'
     ],
     [
         'code' => '503',
         'meaning' => 'Service Unavailable',
-        'description' => '一時的にサーバにアクセスが出来ない'
+        'description' => '一時的にサーバにアクセスができない'
     ]
 ];

@@ -1,47 +1,52 @@
 .result__content {
-    margin: 0 auto;
-    padding: 60px 15px;
-    max-width: 1230px;
+    max-width: 900px;
+    margin: 60px auto;
 }
 
 .result {
     text-align: center;
+    padding: 20px;
 }
 
-/* 正誤判定 */
-
 .result__text--correct {
-    color: #ff0000;
+    color: red;
 }
 
 .result__text--incorrect {
-    color: #0000ff;
+    color: blue;
 }
 
-/* 答え・説明 */
-
-.answer-table {
+.answer__table {
+    width: 100%;
     border: 1px solid #ddd;
 }
 
-.answer-table__inner {
+.answer__table-inner {
     width: 100%;
+    margin: 0 auto;
 }
 
-.answer-table__header {
-    padding: 15px;
+.answer__table-header {
     width: 20%;
-    border-bottom: 1px solid #ddd;
-    background-color: #eee;
+    font-size: 18px;
     font-weight: bold;
+    background: #eee;
+    text-align: center;
 }
 
-.answer-table__text {
-    padding: 15px;
+.answer__table-row:first-child .answer__table-header {
     border-bottom: 1px solid #ddd;
 }
 
-.answer-table__row:last-child .answer-table__header,
-.answer-table__row:last-child .answer-table__text {
+.answer__table-text {
+    padding: 15px;
+}
+
+.answer__table-text {
+    border-bottom: 1px solid #ddd;
+}
+
+.answer__table-row:last-child .answer__table-header,
+.answer__table-row:last-child .answer__table-text {
     border-bottom-width: 0;
 }
